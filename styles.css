@@ -115,6 +115,8 @@ h2 {
     justify-content: center;
     font-weight: bolder;
     font-size: 50px;
+    color: #c0392b;
+    padding: 25px;
 }
 
 .content h2,
@@ -132,12 +134,44 @@ h2 {
 footer {
     display: flex;
     justify-content: center;
-    padding-top: 40px;
+    padding-top: 55px;
 }
 
 .contact-container {
-    border: #000 5px solid; 
-    background-color: rgba(0, 0, 0, .5);
+    /* border: #000 5px solid;  */
+    /* background-color: rgba(0, 0, 0, .5); */
+    background-color: #11040071;
     padding: 20px;
     color: #fff;
 }
+
+.con {
+    justify-content: center; 
+}
+
+.con img {
+    width: 100%;
+    border-radius: 50px;
+    padding: 25px;
+}
+
+.con p {
+    padding: 17px;
+}
+
+#services li {
+    list-style: none;
+    line-height: 2;
+    letter-spacing: 5px;
+    justify-content: center;
+    margin: 0 auto;
+    /* font-size: larger; */
+    padding-right: 20px;
+    /* text-align: left; */
+}
+
+form div {
+    padding: 25px;
+}
+
+
