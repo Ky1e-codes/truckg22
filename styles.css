@@ -129,12 +129,30 @@ h2 {
     color: #555;
     line-height: 30px;
     letter-spacing: 1.2px;
+    text-align: left;
 }
 
 footer {
     display: flex;
     justify-content: center;
     padding-top: 55px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media a {
+    font-size: 26px;
+    margin: 0 10px 0 10px;
+    color: #fff;
+    text-decoration: none;
+    
 }
 
 .contact-container {
@@ -170,8 +188,19 @@ footer {
     /* text-align: left; */
 }
 
-form div {
-    padding: 25px;
+form {
+    text-decoration: none;
 }
 
+form div {
+    padding: 25px;
+    overflow: hidden;
+}
+
+#contact {
+    background-image: url(https://images.unsplash.com/photo-1592838064575-70ed626d3a0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2018&q=80);
+    background-size: cover;
+    background-repeat: none;
+    background-blend-mode: soft-light;
+}
 
