@@ -187,9 +187,7 @@ footer {
     letter-spacing: 5px;
     justify-content: center;
     margin: 0 auto;
-    /* font-size: larger; */
     padding-right: 20px;
-    /* text-align: left; */
 }
 
 form {
@@ -208,3 +206,16 @@ form div {
     background-blend-mode: soft-light;
 }
 
+#contact button {
+    border: 2px solid black;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        font-size: smaller;
+    }
+    .hero {
+        background-size: cover;
+        width: 100%;
+    }
+}
