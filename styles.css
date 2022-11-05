@@ -215,7 +215,6 @@ form div {
         font-size: 18px;
     }
     .hero {
-        background-size: 100% 100%;
-        max-width: 100%;
+        background-size: 1150px;
     }
 }
